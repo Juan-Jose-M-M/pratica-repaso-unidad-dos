@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://getbootstrap.com/docs/5.0/examples/album/ -->
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Hugo 0.84.0">
+	<title>Galeria de Motos</title>
+	<!-- Icono de la pagina -->
+	<link rel="shortcut icon" href="assets/img/icono.png" type="image/x-icon">
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- Libreria de animacion -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- CDN JS -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+	<!-- Favicons -->
+	<meta name="theme-color" content="#7952b3">
+
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+
+		@font-face {
+			font-family: Roboto;
+			src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf");
+		}
+
+		/* Instagram Button Color */
+		.btn-instagram {
+			background-color: #405de6;
+			/* Instagram Blue Color */
+			color: #ffffff;
+			/* White text */
+		}
+
+		/* GitHub Button Color */
+		.btn-github {
+			background-color: #24292e;
+			/* GitHub Dark Gray Color */
+			color: #ffffff;
+			/* White text */
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+		<div class="collapse bg-info" id="navbarHeader">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-md-7 py-4">
+						<h4 class="text-white">Galeria "Mi moto"</h4>
+						<p class="text-muted"></p>
+					</div>
+					<div class="col-sm-4 offset-md-1 py-4">
+						<h4 class="text-white">Contact</h4>
+						<ul class="list-unstyled">
+							<li><a href="form.html" class="text-white">
+									Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar navbar-dark bg-info shadow-sm">
+			<div class="container">
+				<a href="index.html" class="navbar-brand d-flex align-items-center">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+						stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
+						viewBox="0 0 24 24">
+						<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+						</path>
+						<circle cx="12" cy="13" r="4"></circle>
+					</svg>
+					<strong>Album</strong>
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+					aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<main>
+
+		<section class="py-5 text-center container">
+			<div class="row py-lg-5" data-aos="zoom-in">
+				<div class="col-lg-6 col-md-8 mx-auto">
+					<h1 class="fw-light">Bienvenido</h1>
+					<p class="lead text-muted">"Una galeria de motos"</p>
+					<p>
+						<a href="https://www.instagram.com/el_j_24/" class="btn btn-instagram my-2">
+							Follow Instagram
+						</a>
+						<a href="https://github.com/Juan-Jose-M-M" class="btn btn-github my-2">
+							Follow GitHub
+						</a>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="album py-5 bg-light">
+			<div class="container">
+
+				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+					<div class="col" data-aos="fade-right">
+						<div class="card shadow-sm">
+							<img src="assets/img/img1.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Suzuki GSX-R1000R 2023</h4>
+								<p class="card-text">Es una moto deportiva de alta gama, que ofrece un rendimiento
+									excepcional tanto en carretera como en circuito. Tiene un motor de 999 cc y 202 cv,
+									un sistema de control de tracción y un cambio rápido bidireccional. Su peso es de
+									203 kg</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€22.499</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col" data-aos="fade-right">
+						<div class="card shadow-sm">
+							<img src="assets/img/img2.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>BMW M 1000 RR 2023</h4>
+								<p class="card-text">Es una moto deportiva exclusiva, que se basa en
+									la S 1000 RR pero con mejoras en el motor, el chasis y la aerodinámica. Cuenta con
+									un motor de 999 cc y 212 cv, un paquete electrónico M y unas alas de carbono. Su
+									peso es de 192 kg </p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€34.900</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img3.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Kawasaki Ninja ZX-10R 2023</h4>
+								<p class="card-text"> Es una moto deportiva que refleja la
+									experiencia de Kawasaki en el Mundial de Superbike. Dispone de un motor de 998 cc y
+									200 cv, un chasis optimizado y una electrónica avanzada. Su peso es de 207 kg</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€19.999</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img4.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Honda CBR600RR 2023</h4>
+								<p class="card-text">Es una moto deportiva de media cilindrada, que combina un diseño
+									agresivo con una gran manejabilidad. Tiene un motor de 599 cc y 120 cv, un sistema
+									de control de tracción y un ABS deportivo. Su peso es de 194 kg y su precio es de
+									14.800 euros</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€14,800</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img5.png" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Ducati Panigale V2 2023</h4>
+								<p class="card-text">
+									Es una moto deportiva de dos cilindros, que ofrece una
+									conducción deportiva pero accesible. Posee un motor de 955 cc y 155 cv, un chasis
+									monobrazo y un sistema de control electrónico. Su peso es de 176 kg.
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€18.990</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img6.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Yamaha YZF-R1 2023</h4>
+								<p class="card-text">Es una moto deportiva de referencia, que
+									incorpora la tecnología
+									más avanzada de Yamaha. Dispone de un motor de 998 cc y 200 cv, un chasis de
+									aluminio y una electrónica de última generación. Su peso es de 201 kg.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€21.999</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img7.avif" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Triumph Daytona Moto2 765 2023</h4>
+								<p class="card-text">
+									Es una moto deportiva limitada a 765 unidades, que
+									se inspira en la moto oficial del Mundial de Moto2. Cuenta con un motor de 765 cc y
+									128 cv, un chasis de aluminio y un equipamiento exclusivo. Su peso es de 165 kg
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€17.500</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img8.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>KTM RC 390 2023</h4>
+								<p class="card-text">
+									Es una moto deportiva de baja cilindrada, que ofrece una gran
+									diversión y un bajo consumo. Tiene un motor de 373 cc y 44 cv, un chasis
+									multitubular y un ABS de dos canales. Su peso es de 147 kg
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€6.199</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img9.png" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>MV Agusta F3 800 2023</h4>
+								<p class="card-text">
+									Es una moto deportiva de tres cilindros, que destaca por su
+									belleza y su potencia. Posee un motor de 798 cc y 148 cv, un chasis de acero y
+									aluminio y una electrónica completa. Su peso es de 173 kg
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€17.990</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img10.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Suzuki GSX-R125 2023</h4>
+								<p class="card-text">
+									Es una moto deportiva de 125 cc, que ofrece un diseño
+									deportivo y una buena relación peso-potencia. Dispone de un motor de 124 cc y 15 cv,
+									un chasis ligero y un sistema de arranque sin llave. Su peso es de 134 kg.
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€4.999</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img11.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>BMW S 1000 RR 2023</h4>
+								<p class="card-text">
+									Es una moto deportiva de cuatro cilindros, que ofrece un
+									rendimiento excepcional tanto en carretera como en circuito. Cuenta con un motor de
+									999 cc y 207 cv, un sistema de control dinámico y un cambio rápido bidireccional. Su
+									peso es de 197 kg
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€20.950</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img12.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Kawasaki Ninja ZX-6R 2023</h4>
+								<p class="card-text">
+									Es una moto deportiva de media cilindrada, que ofrece
+									una gran agilidad y un alto rendimiento. Tiene un motor de 636 cc y 136 cv, un
+									chasis de aluminio y un sistema de control de tracción. Su peso es de 196 kg.
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€12.499</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img13.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Honda CBR1000RR-R Fireblade 2023</h4>
+								<p class="card-text">
+									Es una moto deportiva de alta gama, que ofrece
+									un rendimiento extremo tanto en carretera como en circuito. Dispone de un motor de
+									999 cc y 217 cv, un chasis de aluminio y una electrónica de última generación. Su
+									peso es de 201 kg.
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€25.450</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img14.webp" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Ducati Panigale V4 R 2023</h4>
+								<p class="card-text">
+									Es una moto deportiva exclusiva, que se basa en la
+									Panigale V4 pero con mejoras en el motor, el chasis y la aerodinámica. Posee un
+									motor de 998 cc y 221 cv, un paquete electrónico R y unas alas de carbono. Su peso
+									es de 172 kg.
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€44.000</small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="card shadow-sm" data-aos="fade-right">
+							<img src="assets/img/img15.jpg" class="bd-placeholder-img card-img-top"
+								style="max-width: 350px;">
+							<div class="card-body">
+								<h4>Yamaha YZF-R3 2023</h4>
+								<p class="card-text">
+									Es una moto deportiva de baja cilindrada, que ofrece un diseño
+									deportivo y una buena relación peso-potencia. Tiene un motor de 321 cc y 42 cv, un
+									chasis de acero y un ABS de dos canales. Su peso es de 169 kg.
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+									</div>
+									<small class="text-muted">€6.199 </small>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer class="text-muted py-5">
+		<div class="container align-items-center ">
+			<p>Juan Jose Moreno&copy; 2023</p>
+		</div>
+	</footer>
+
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>
